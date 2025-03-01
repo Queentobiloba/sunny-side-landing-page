@@ -1,0 +1,534 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  --Soft-red: hsl(7, 99%, 70%);
+  --Yellow-color: hsl(51, 100%, 49%);
+  --Dark-desaturated-cyan: hwb(167 65% 7%);
+  --Dark-blue: hsl(198, 62%, 26%);
+  --Dark-moderate-cyan: hsl(168, 34%, 41%);
+  --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --Dark-grayish-blue: hsl(232, 10%, 55%);
+  --Grayish-blue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+
+}
+
+header {
+  border: 3px solid red;
+  height: 100vh;
+  background-image: url("./images/desktop/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header nav {
+  border: 3px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+header nav ul {
+  border: 3px solid purple;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: white;
+}
+
+header nav .harmburger-times{
+  display: none;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Barlow", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+header .arrow {
+  border: 3px solid brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+/* section 1 */
+.egg-section {
+  border: 3px solid green;
+  display: flex;
+}
+.egg-content {
+  border: 3px solid purple;
+  width: 50%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.egg-image {
+  border: 3px solid red;
+  width: 50%;
+  height: 500px;
+  background-image: url("./images/desktop/image-transform.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.egg-text {
+  border: 3px solid brown;
+  max-width: 450px;
+ 
+}
+
+.egg-text h1 {
+  font-size: 50px;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color: var(--Very-dark-desaturated-blue);
+}
+
+.egg-text p {
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+.egg-text h4{
+  border-bottom: 8px solid  hsl(51, 100%, 49%);
+  display: inline-block;
+  line-height: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* section 2 */
+.grid-section {
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cup-image {
+  border: 3px solid green;
+  height: 500px;
+  background-image: url("./images/desktop/image-stand-out.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.cup-text {
+  border: 3px solid brown;
+  max-width: 450px;
+}
+
+.cup-text h1 {
+  font-size: 50px;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color: var(--Very-dark-desaturated-blue);
+
+}
+.cup-text h4{
+  border-bottom: 8px solid hsl(7, 99%, 70%);
+  display: inline-block;
+  line-height: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.cup-text p{
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 10px
+}
+.cup-content {
+  border: 3px solid green;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graphic-image {
+  border: 3px solid green;
+  height: 500px;
+  background-image: url("./images/desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.graphic-text {
+  border: 3px solid purple;
+  max-width: 400px;
+  text-align: center;
+}
+
+.graphic-text h1{
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color: hsl(168, 34%, 41%);
+
+}
+
+.graphic-text p {
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 30px
+}
+
+.photography-image {
+  border: 3px solid green;
+  height: 500px;
+  background-image: url("./images/desktop/image-photography.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+}
+
+.photography-text {
+  border: 3px solid brown;
+  max-width: 350px;
+}
+
+.photography-text p{
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 30px
+}
+
+.photography-text h1{
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color: hsl(198, 62%, 26%);
+
+}
+
+/* section 3 */
+.testimonial-section {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.testiominal-text {
+  border: 3px solid brown;
+  max-width: 350px;
+  padding: 10px;
+  margin-top: 110px;
+  margin-bottom: 50px;
+}
+
+.testiominal-text h2{
+  color:  hsl(232, 10%, 55%);
+}
+
+.testiominal-text h2{
+  font-family: "Barlow", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.grid-sweets {
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.bottle {
+  border: 3px solid green;
+  height: 400px;
+  background-image: url("./images/desktop/image-gallery-milkbottles.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.orange {
+  border: 3px solid green;
+  height: 400px;
+  background-image: url("./images/desktop/image-gallery-orange.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.icecream {
+  border: 3px solid green;
+  height: 400px;
+  background-image: url("./images/desktop/image-gallery-cone.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.sugar {
+  border: 3px solid green;
+  height: 400px;
+  background-image: url("./images/desktop/image-gallery-sugarcubes.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tesimonial-people {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+.testimonial-one{
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.testimonial-two{
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial-three{
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial-one img{
+    border-radius: 50%;
+}
+
+.testimonial-two img{
+    border-radius: 50%;
+}
+
+.testimonial-three img{
+    border-radius: 50%;
+}
+
+
+.testimonial-one p{
+    max-width: 500px;
+    padding: 50px;
+}
+
+.testimonial-two p{
+    max-width: 500px;
+    padding: 50px;
+}
+
+.testimonial-three p{
+    max-width: 500px;
+    padding: 50px;
+}
+
+.testimonial-one h3{
+    max-width: 500px;
+    padding: 10px;
+}
+
+.testimonial-two h3{
+    max-width: 500px;
+    padding: 10px;
+}
+
+.testimonial-three h3{
+    max-width: 500px;
+    padding: 10px;
+}
+
+.testimonial-one h6{
+  color:  hsl(232, 10%, 55%);
+}
+
+.testimonial-two h6{
+  color:  hsl(232, 10%, 55%);
+}
+
+.testimonial-three h6{
+  color: hsl(232, 10%, 55%);
+}
+
+.testimonial-one p{
+  color: hsl(223, 3%, 61%);
+}
+
+.testimonial-two p{
+  color: hsl(223, 3%, 61%);
+}
+
+.testimonial-three p{
+  color: hsl(223, 3%, 61%);
+}
+
+/* .footer{
+    background-color: hsl(168, 34%, 41%);
+} */
+.footer-container{
+    border: 2px solid rgb(133, 202, 23);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(168, 34%, 41%);
+    height: 330px;
+}
+
+.sunnyside{
+    padding: 50px;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: hsl(167, 50%, 78%);
+
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+    color: hsl(167, 50%, 78%);
+    margin-top: 70px;
+}
+
+
+@media(max-width:700px){
+  .egg-section{
+    flex-direction: column-reverse;
+  }
+
+  header nav ul  {
+    display: none;
+  }
+
+  header nav .harmburger-times{
+    display: block;
+  }
+
+  header .arrow {
+    border: 3px solid brown;
+    margin-top: 50px;
+  }
+
+  .egg-content{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+  }
+  .egg-image {
+    border: 3px solid red;
+    width: 100%;
+    height: 400px;
+    background-image: url("./images/desktop/image-transform.jpg");
+  }
+
+  .grid-section {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cup-content {
+    border: 3px solid green;
+    height: 500px;
+    text-align: center;
+  }
+
+  .tesimonial-people {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .grid-sweets {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bottle {
+    border: 3px solid green;
+    height: 200px;
+   
+  }
+  
+  .orange {
+    border: 3px solid green;
+    height: 200px;
+   
+  }
+  
+  .icecream {
+    border: 3px solid green;
+    height: 200px;
+  
+  }
+  
+  .sugar {
+    border: 3px solid green;
+    height: 200px;
+  }
+}
+
+
+
+
+
+
+
